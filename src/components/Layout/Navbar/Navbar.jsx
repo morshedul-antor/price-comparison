@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Navbar.module.css';
 import subscribe from './/subscribe.png';
-import logo from './/logo cropped.png';
+import logo from './/logo-cropped.png';
 
 const Navbar = () => {
     return (
