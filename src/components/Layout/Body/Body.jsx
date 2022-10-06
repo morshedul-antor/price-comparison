@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import classes from './Body.module.css';
 import search from './/search.png';
-
+// import iconHeader from './/icon01.png'
 const Body = (props) => {
     const show = props.show;
     useEffect(()=>{
@@ -13,18 +13,22 @@ const Body = (props) => {
    
     return (
         <div className={classes.container}>
+            {/* <div>
+                <img src={iconHeader} alt="" />
+            </div> */}
             <div>
                 <div>
                     <input type="text" />
                 </div>
                 <div>
-                    <button>
-                        <img src={search} alt="" />
+                <button>
+                    <img src={search} alt="" />
                     </button>
-                </div>
+                </div>   
+                
             </div>
             <div>
-                <iframe title="dashboard - Net Sales" width="100%" height="836" 
+                <iframe title="dashboard - Net Sales" width="90%" height="1350" 
                     src="https://app.powerbi.com/view?r=eyJrIjoiMTQ2YTMzNjktMDYzMy00ZDk0LWJlOTMtZTc5
                     ZDMzNzU3YjgwIiwidCI6Ijk2YjI4ZDUwLTIwNTAtNGExYi05NGI2LTAxZTFmYTZiYWUzNCIsImMiOjEwfQ%3D%3D" 
                     frameborder="0" allowFullScreen="true">
