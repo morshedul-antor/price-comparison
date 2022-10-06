@@ -17,7 +17,7 @@ const Layout = () => {
         <div className={classes.container}>
             <Navbar />
            
-            <Sidebar show={show} setShow={setShow}/>
+            {/* <Sidebar show={show} setShow={setShow}/> */}
             
             <Body show={show} />
 
