@@ -1,0 +1,19 @@
+.container{
+    margin: 0;
+}
+.container > img{
+    width: auto;
+    height: 2rem;    
+    transition: box-shadow 0.1s linear;  
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+    border: 1px solid red;
+    position: absolute;
+    display: inline;
+    left: 0;
+}
+
+.container > img:hover{
+    box-shadow: 4px 8px 12px #cbc3e3b3;
+}
