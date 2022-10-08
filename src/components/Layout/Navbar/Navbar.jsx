@@ -9,7 +9,6 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            {" "}
             <img src={logo} alt="" />
           </li>
           <li>
@@ -27,10 +26,6 @@ const Navbar = () => {
           <li>
             <img src={subscribe} alt="" />
             <a href="/">Subscribe</a>
-            {/* <button>
-                            <img src={subscribe} alt="" />
-                            <a href="/">Subscribe</a>
-                        </button> */}
           </li>
         </ul>
       </nav>
