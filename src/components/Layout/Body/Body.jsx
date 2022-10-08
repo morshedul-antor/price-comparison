@@ -4,6 +4,7 @@ const Body = (props) => {
   return (
     <div className={classes.container}>
       <div>
+      <h1>ComPricey</h1>
         <iframe
           title="dashboard - Net Sales"
           width="1200px"
@@ -14,7 +15,7 @@ const Body = (props) => {
           allowFullScreen="true"
         ></iframe>
       </div>
-      <div>
+      {/* <div>
         <div>
           <p>div 1</p>
           <iframe
@@ -63,7 +64,7 @@ const Body = (props) => {
             allowfullscreen
           ></iframe>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

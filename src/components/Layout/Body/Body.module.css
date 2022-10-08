@@ -4,11 +4,15 @@
 .container > div:nth-child(1){
     margin-top: -40px;
     display: flex;
+    flex-direction: column;
     justify-content: center; 
+    align-items: center;
     background-color: rgba(0, 0, 128, 0.882);
     padding: 30px 0;
 }
-
+.container > div:nth-child(1)>h1{
+    color: white;
+}
 .container > div:nth-child(1) > div:nth-child(1) > input{
     width: 400px;
     height: 35px;
