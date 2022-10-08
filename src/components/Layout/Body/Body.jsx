@@ -2,14 +2,7 @@ import React, { useEffect } from 'react';
 import classes from './Body.module.css';
 import search from './/search.png';
 const Body = (props) => {
-    // const show = props.show;
-    // useEffect(()=>{
-    //     const doc = document.getElementsByClassName(classes.container)[0];
-    //     // console.log(doc);
-    //     show ? doc.style.width = "10vw" : doc.style.width = "100vw" 
-        
-    // }, [show])
-   
+    
     return (
         <div className={classes.container}>
             {/* <div>
