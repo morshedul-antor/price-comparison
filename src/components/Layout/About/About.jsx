@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import classes from './About.module.css';
 
 const About = (props) => {
-    const show = props.show;
-    useEffect(()=>{
-        const doc = document.getElementsByClassName(classes.container)[0];
-        // console.log(doc);
-        show ? doc.style.width = "84vw" : doc.style.width = "90vw" 
-    }, [show])
+    // const show = props.show;
+    // useEffect(()=>{
+    //     const doc = document.getElementsByClassName(classes.container)[0];
+    //     // console.log(doc);
+    //     show ? doc.style.width = "84vw" : doc.style.width = "90vw" 
+    // }, [show])
 
     return (
         <div className={classes.container}>
