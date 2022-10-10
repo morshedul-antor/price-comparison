@@ -1,7 +1,7 @@
 .container{
     margin: 0;
 }
-.container > img{
+.layout > img{
     width: auto;
     height: 2rem;    
     transition: box-shadow 0.1s linear;  
@@ -13,6 +13,6 @@
     left: 0;
 }
 
-.container > img:hover{
+.layout > img:hover{
     box-shadow: 4px 8px 12px #cbc3e3b3;
 }

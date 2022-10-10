@@ -6,29 +6,21 @@ import logo from "./logo-cropped.png";
 const Navbar = () => {
   return (
     <div className={classes.container}>
-      <nav>
-        <ul>
-          <li>
-            <img src={logo} alt="" />
-          </li>
-          <li>
-            <a href="/">About</a>
-          </li>
-          <li>
-            <a href="/">File</a>
-          </li>
-          <li>
-            <a href="/">Share</a>
-          </li>
-          <li>
-            <a href="/">Comment</a>
-          </li>
-          <li>
-            <img src={subscribe} alt="" />
-            <a href="/">Subscribe</a>
-          </li>
-        </ul>
-      </nav>
+        <div><img src={logo} alt="" /></div>
+        <div>
+          <a href="/">About</a>
+
+          <a href="/">File</a>
+
+          <a href="/">Share</a>
+
+          <a href="/">Comment</a>
+
+        </div>
+        <div>
+          <img src={subscribe} alt="" /><span>
+          <a href="/">Subscribe</a></span>
+        </div>
     </div>
   );
 };

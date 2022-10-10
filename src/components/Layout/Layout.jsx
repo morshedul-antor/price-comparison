@@ -5,7 +5,7 @@ import classes from "./Layout.module.css";
 
 const Layout = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.layout}>
       <Navbar />
       {/* <Sidebar show={show} setShow={setShow}/> */}
       <Body />
