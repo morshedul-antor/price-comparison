@@ -1,20 +1,24 @@
 import React from "react";
 import classes from "./Body.module.css";
+import icon from './icon02.png'
 const Body = (props) => {
   return (
     <div className={classes.container}>
-      <div>
-      <h1>ComPricey</h1>
-        <iframe
-          title="dashboard - Net Sales"
-          width="1200px"
-          height="1500"
-          src="https://app.powerbi.com/view?r=eyJrIjoiMTQ2YTMzNjktMDYzMy00ZDk0LWJlOTMtZTc5
+        <div>
+          <h1>ComPricey</h1>
+          <img src={icon} alt="" />
+        </div>
+        <div>
+          <iframe
+            title="dashboard - Net Sales"
+            width="1200px"
+            height="1500"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMTQ2YTMzNjktMDYzMy00ZDk0LWJlOTMtZTc5
                     ZDMzNzU3YjgwIiwidCI6Ijk2YjI4ZDUwLTIwNTAtNGExYi05NGI2LTAxZTFmYTZiYWUzNCIsImMiOjEwfQ%3D%3D"
-          frameborder="0"
-          allowFullScreen="true"
-        ></iframe>
-      </div>
+            frameborder="0"
+            allowFullScreen="true"
+          ></iframe>
+        </div>
       {/* <div>
         <div>
           <p>div 1</p>
