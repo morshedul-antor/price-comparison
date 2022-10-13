@@ -64,7 +64,7 @@
         height: 50px;
     }
     .container>div:first-child{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .container>div:nth-child(1)>img{
         height: 40px;
@@ -74,7 +74,7 @@
         display: none;
     }
     .container>div:last-child{
-        margin-right: 10px;
+        margin-right: 20px;
         padding: 0.5vh 0.7vw 0.5vh 0.7vw;
     }
     .container>div:last-child>img{
