@@ -60,7 +60,20 @@
 }
 
 @media (max-width: 420px) {
+    .container>div:first-child{
+        margin-left: 20px;
+    }
     .container>div:nth-child(2){
         display: none;
     }
+    .container>div:last-child{
+        margin-right: 20px;
+    }
+    .container>div:last-child>img{
+        width: 18px;
+    }
+    .container>div:last-child>span>a{
+        font-size: small;
+    }
+    
 }
