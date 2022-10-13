@@ -61,13 +61,31 @@
 
 @media (max-width: 420px) {
     .container{
-        column-gap: 100px;
+        height: 50px;
     }
-    .container > div:first-child{
-        margin-left: 20px;
+    .container>div:first-child{
+        margin-left: 10px;
+    }
+    .container>div:nth-child(1)>img{
+        height: 40px;
+        width: 40px;
     }
     .container>div:nth-child(2){
         display: none;
     }
-
+    .container>div:last-child{
+        margin-right: 10px;
+        padding: 0.5vh 0.7vw 0.5vh 0.7vw;
+    }
+    .container>div:last-child>img{
+        width: 15px;
+        height: 1rem;
+        margin-right: 0.2rem;
+    }
+    .container>div:last-child>span>a{
+        font-size: 10px;
+        position: relative;
+        top: -3px;
+    }
+    
 }
