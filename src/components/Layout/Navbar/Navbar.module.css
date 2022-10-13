@@ -67,10 +67,11 @@
         display: none;
     }
     .container>div:last-child{
-        margin-right: 15px;
+        margin-right: 10px;
+        padding: 0.6vh 1vw 0.6vh 1vw;
     }
     .container>div:last-child>img{
-        width: 18px;
+        width: 17px;
     }
     .container>div:last-child>span>a{
         font-size: small;
